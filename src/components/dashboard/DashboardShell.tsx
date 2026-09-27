@@ -18,7 +18,7 @@ export function DashboardShell() {
           <p className="section__eyebrow">CMS · tanpa login</p>
           <h1>Dashboard Portofolio</h1>
           <p className="dashboard__subtitle">
-            Kelola konten dan pantau klik yang dikirim ke Google Analytics 4.
+            Kelola konten dan lihat diagram batang klik dari Google Analytics 4.
           </p>
         </div>
         <Link

@@ -31,10 +31,17 @@ export type PortfolioContent = {
   };
 };
 
-export type ClickEvent = {
-  id: string;
-  name: string;
+export type ChartDatum = {
+  key: string;
   label: string;
-  path: string;
-  timestamp: string;
+  value: number;
+};
+
+export type AnalyticsSummary = {
+  configured: boolean;
+  rangeDays: number;
+  totalEvents: number;
+  byEvent: ChartDatum[];
+  byLabel: ChartDatum[];
+  error?: string;
 };
