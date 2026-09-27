@@ -1,0 +1,42 @@
+{
+  "profile": {
+    "name": "Geraldin Gysrawa",
+    "role": "Mahasiswa Teknik Informatika · Web Developer",
+    "tagline": "Membangun solusi digital dari analisis desain hingga development.",
+    "location": "Bandung",
+    "age": 21,
+    "school": "Politeknik Negeri Bandung",
+    "photo": "/foto-profile.png",
+    "email": "",
+    "github": "",
+    "linkedin": ""
+  },
+  "about": {
+    "eyebrow": "Hi, kenalan dulu",
+    "headline": "Tentang Saya",
+    "paragraphs": [
+      "Hi, nama saya Geraldin Gysrawa. Saya berumur 21 tahun dan berdomisili di Bandung. Saya adalah mahasiswa Teknik Informatika di Politeknik Negeri Bandung yang berfokus pada pengembangan web.",
+      "Berpengalaman membangun berbagai proyek perangkat lunak, mulai dari sistem monitoring hingga platform rekomendasi talenta. Terbiasa mengerjakan project dari analisis desain hingga development, serta aktif berkolaborasi dalam tim untuk menghadirkan solusi digital yang efisien."
+    ]
+  },
+  "projects": {
+    "eyebrow": "Task / Project",
+    "headline": "Pengalaman proyek",
+    "items": [
+      {
+        "id": "rekomendasi-talenta",
+        "role": "Back End Developer",
+        "title": "Fitur Rekomendasi Talenta berbasis Knowledge Graph dan Ontology",
+        "stack": ["Python", "REST", "Neo4j", "Protege"],
+        "description": "Membangun fitur rekomendasi talenta dengan knowledge graph dan ontology untuk menghasilkan saran yang lebih relevan."
+      },
+      {
+        "id": "dashboard-mbg",
+        "role": "Fullstack Developer",
+        "title": "Dashboard Makan Bergizi Gratis",
+        "stack": ["Phalcon", "JavaScript", "Redis", "PostgreSQL"],
+        "description": "Mengembangkan dashboard operasional untuk program Makan Bergizi Gratis, dari antarmuka hingga layanan backend."
+      }
+    ]
+  }
+}
